@@ -1,0 +1,35 @@
+﻿# Keil MDK build artifacts
+MDK-ARM/**/Objects/
+MDK-ARM/**/Listings/
+MDK-ARM/**/DebugConfig/
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.elf
+MDK-ARM/**/*.hex
+MDK-ARM/**/*.map
+MDK-ARM/**/*.lst
+MDK-ARM/**/*.sct
+
+# Keil user-specific project files
+*.uvguix*
+*.uvoptx
+*.uvprojx.bak
+
+# STM32CubeMX generated caches
+*.launch
+*.log
+
+# Generic build outputs
+*.o
+*.d
+*.tmp
+*.bak
+*.swp
+*.user
+~*
+Thumbs.db
+.DS_Store
+
+# Exclude primary project files from ignore rules
+!MDK-ARM/rtos.uvprojx
+!rtos.ioc
+!.mxproject
